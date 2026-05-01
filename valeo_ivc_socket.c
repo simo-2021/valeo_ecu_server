@@ -14,8 +14,10 @@
  *  - Use of setsockopt to set timeouts on sockets
  *  - Use of syslog for logging important events and errors
  *  - Use of daemon() to run in background if -d option is provided
- * Done by: Arnaud, Arnaud
+ * Done by: Arnaud, Simo
  * Date: 2026-04-29 
+ * Goal: Simulate an automotive ECU that listens for TCP connections, generates CAN frames, 
+ * logs data to a file, and handles signals gracefully.
  
  *********************************************************************/
 

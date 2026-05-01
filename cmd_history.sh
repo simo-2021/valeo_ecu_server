@@ -1,6 +1,15 @@
 # Connecto to my original repository
 git remote add origin git@github.com:simo-2021/valeo_ecu_server.git
 
+#set up the README.md file & repository
+echo "# valeo_ecu_server" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:simo-2021/valeo_ecu_server.git
+git push -u origin main
+
 
 #Yocto Installation
 # Packages à installer pour Yocto
@@ -23,9 +32,11 @@ git clone -b kirkstone git://git.yoctoproject.org/poky
 
  # Init build environment
  source oe-init-build-env     
+
 # stop
 # Build the minimal image (this will take a while)
 bitbake core-image-minimal
+
 
  
  # Examine current build configuration
