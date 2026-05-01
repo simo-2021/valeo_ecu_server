@@ -1,6 +1,4 @@
-[submodule "bitbake"]
-	path = bitbake
-	url = https://git.openembedded.org/bitbake
+
 [submodule "buildroot"]
 	path = buildroot
 	url = https://gitlab.com/buildroot.org/buildroot.git
