@@ -1,0 +1,4 @@
+bitbake/
+bitbake/
+build/
+*.o
